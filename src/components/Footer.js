@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Footer() {
   return (
     <FooterContainer>
-      <p className="p-2 mt-2">
+      <p className="mt-2">
         This is a demo react site, created by{" "}
         <strong>Vikram Singh Rajpurohit</strong>
       </p>
