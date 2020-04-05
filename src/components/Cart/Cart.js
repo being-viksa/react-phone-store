@@ -9,7 +9,7 @@ import CartTotals from "./CartTotals";
 class Cart extends Component {
   render() {
     return (
-      <section>
+      <section style={{ overflow: "hidden" }}>
         <ProductConsumer>
           {(value) => {
             const { cart } = value;
